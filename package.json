@@ -1,0 +1,22 @@
+{
+  "name": "xcore-whatsapp-devbot",
+  "version": "6.0.0",
+  "description": "XCORE\u00ae \u2014 WhatsApp Developer Bot with XCORE AI (Node.js / Baileys)",
+  "type": "module",
+  "main": "src/index.js",
+  "private": true,
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "preflight": "node src/preflight.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.0",
+    "jimp": "^1.6.0",
+    "jsqr": "^1.4.0",
+    "pino": "^9.0.0"
+  }
+}
